@@ -1,0 +1,12 @@
+<div class="auth-container">
+    <h2>Login</h2>
+    <form ng-submit="login()">
+        <label>Email:</label>
+        <input type="email" ng-model="loginData.email" required placeholder="Masukkan email">
+        <label>Password:</label>
+        <input type="password" ng-model="loginData.password" required placeholder="Masukkan password">
+        <button type="submit">Login</button>
+    </form>
+    <p>{{ message }}</p>
+    <a href="#!/register">Belum punya akun? Daftar di sini!</a>
+</div>
